@@ -45,6 +45,9 @@ a {
     color: #404bbf;
 }
 
+.address {
+    font-style: normal;
+}
 .mainpage {
     background: #2e2f42;
 }
@@ -81,6 +84,7 @@ a {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    text-transform: capitalize
 }
 
 .title-three {
@@ -138,6 +142,3 @@ a {
     color: #2e2f42;
 }
 
-.ourteam > .title-two {
-    text-transform: capitalize
-}
