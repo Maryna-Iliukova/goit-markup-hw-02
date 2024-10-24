@@ -16,13 +16,13 @@ a {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
-.nav-list {
+.nav-list { 
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -30,10 +30,19 @@ a {
     color: #2e2f42;
 }
 
+.nav-list:hover, .nav-list:focus {
+    color: #404bbf;
+}
 .contacts {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-style: normal;
+    color: #434455;
+}
+
+.contacts:hover, .contacts:focus {
+    color: #404bbf;
 }
 
 .mainpage {
@@ -43,13 +52,14 @@ a {
 .motto {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
 }
 
 .button {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -57,18 +67,23 @@ a {
     color: #fff;
     background-color: #4d5ae5;
     text-align: center;
+    cursor: pointer;
 }
 
-h2 {
+.button:hover, .button:focus {
+    background-color: #404BBF;
+}
+
+.title-two {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
 }
 
-h3 {
+.title-three {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -114,4 +129,11 @@ footer {
 
 .web {
     color: #4d5ae5;
+}
+.studio {
+    color: #2e2f42;
+}
+
+.ourteam > .title-two {
+    text-transform: capitalize
 }
